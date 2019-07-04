@@ -15,6 +15,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
 }
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #BF0603 ;
+}
 .navbar-light .navbar-nav .nav-link{
     color: #BF0603 ;
 }
@@ -29,10 +32,9 @@ a{
     margin: 10px;
     font-family: 'Playfair Display', serif;
 }
-#navbar{
-    padding: 2px 5px;
+.navbar{
+    padding: 0px 30px;
 }
-
 *{
     transition: all 0.3s;}
 nav a {
@@ -63,4 +65,12 @@ nav.shrink a {
 
 nav.shrink .navbar-brand {
     font-size: 25px;
+}
+.btn-custom{
+    font-size: 20px;
+    text-align: left;
+    border: 0px;
+}
+.dropdown-item{
+    width: initial;
 }

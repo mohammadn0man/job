@@ -8,6 +8,7 @@
     <!--logo adding-->
     <link rel="shortcut icon" href="img/logo.ico">
     <!--css files integration-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -26,7 +27,13 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <div class="navbar-nav ml-auto">
                     <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Products</a>
+                    <div class="dropdown">
+                        <a href="#" class="nav-item nav-link btn-custom dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="nav-item nav-link dropdown-item" href="#">Mens</a>
+                            <a class="nav-item nav-link dropdown-item" href="#">Women</a>
+                        </div>
+                    </div>
                     <a href="#" class="nav-item nav-link">Franchise</a>
                     <a href="#" class="nav-item nav-link">Contact Us</a>
                     <a href="#" class="nav-item nav-link">About Us</a>

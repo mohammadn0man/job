@@ -5,10 +5,10 @@
 
 */
 
-
+/*css for header navigator */
 body{
     font-family: 'Roboto Condenced', sans-serif;
-    padding-top: 135px;
+    padding-top: 125px;
     /*color: #8D0801;*/
 }
 .navbar{
@@ -73,4 +73,20 @@ nav.shrink .navbar-brand {
 }
 .dropdown-item{
     width: initial;
+}
+
+/*css for slider*/
+.carousel-item {
+    padding: 0pc 30px;
+}
+
+/*css for work sectoin*/
+.h1, h1 {
+    text-underline-position: under;
+    padding: 12px;
+    text-align: center;
+    color: #9e3c39;
+    font-family: 'Playfair display';
+    text-decoration: underline;
+    box-shadow: 1px 4px 11px 0px #c1aead;
 }

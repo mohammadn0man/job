@@ -5,11 +5,17 @@
 
 */
 
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8d0801, rgba(0, 0, 0, 0));
+}
+
 /*css for header navigator */
 body{
+    padding: 0px 10%;
     font-family: 'Roboto Condenced', sans-serif;
     padding-top: 125px;
-    /*color: #8D0801;*/
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
@@ -76,17 +82,16 @@ nav.shrink .navbar-brand {
 }
 
 /*css for slider*/
-.carousel-item {
-    padding: 0pc 30px;
-}
+
 
 /*css for work sectoin*/
 .ml1 {
     font-weight: 900;
     font-size: 25px;
     text-align: center;
-    padding: 20px 0px;
+    padding: 30px 0px;
     color: #8d0801;
+    font-family: 'Playfair Display', SansSerif;
 }
 
 .ml1 .letter {
@@ -131,12 +136,24 @@ img{ max-width:100%;}
 .gallery_box li img{-webkit-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;}
-.gallery_box li:nth-child(even) {
-    /*height: 250px;*/
-}
-.gallery_box li:nth-child(odd) {
-    /*height: 380px;*/
-}
 .gal{
     padding: 0px 5px;
+}
+
+/*product section*/
+h3{
+    font-family: 'Playfair Display', SansSerif;
+    color: #8d0801;
+    font-size: 25px;
+}
+
+/*Ladies bags section*/
+.card{
+    border: 1px solid #8d0801;
+}
+.carousel-indicators{
+    margin-bottom: 4px;
+}
+.carousel-indicators li{
+    background-color:#8d0801;
 }

@@ -11,7 +11,6 @@ $(window).scroll(function() {
 });
 
 // our work section
-// Wrap every letter in a span
 $('.ml1 .letters').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 });
@@ -45,3 +44,8 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
 });
+
+// product section
+
+
+// ladies bags section

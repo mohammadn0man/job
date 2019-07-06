@@ -1,8 +1,6 @@
-<?php
-require_once('header.php');
-?>
+<!--<?php require_once('header.html'); ?>-->
 <!DOCTYPE html>
-<html lang="en" xmlns:height="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +18,7 @@ require_once('header.php');
 </head>
 <body>
     <!--navbar section-->
-<!--    at the top-->
+    <ol id="header"></ol>
 
     <!--carousel section-->
     <div id="carouselExampleIndicators" class="carousel shadow slide" data-ride="carousel">
@@ -483,13 +481,15 @@ require_once('header.php');
 
     <hr>
 
-    <!--temp spaces-->
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!--footer section-->
+    <ol id="footer"></ol>
 
     <!--js scripts-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>$( "#header" ).load( "header.html" );</script>
+    <script>$( "#footer" ).load( "footer.html" );</script>
+    <script src="js/anime.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>

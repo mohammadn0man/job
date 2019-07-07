@@ -11,9 +11,13 @@ hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #8d0801, rgba(0, 0, 0, 0));
 }
 
+/*home content*/
+.home-content{
+    padding: 0px 10%;
+}
+
 /*css for header navigator */
 body{
-    padding: 0px 10%;
     font-family: 'Roboto Condenced', sans-serif;
     padding-top: 110px;
 }
@@ -32,6 +36,11 @@ body{
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: rgba(255, 0, 15, 0.65);
+}
+.dropdown-menu{
+    top: 65%;
+    left: 10%;
+    /*background-color: #fff3cd;*/
 }
 a{
     color: #8d0801;
@@ -162,9 +171,9 @@ h3{
 
 /*footer section*/
 footer.page-footer.font-small.unique-color-dark{
-     padding: 0px;
+     padding: 0px 0px !important;
      background-color: #fff3cd;
- }
+}
 .h6, h6{
     color: #8d0801;
 }

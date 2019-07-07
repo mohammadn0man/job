@@ -1,0 +1,20 @@
+.img-container{
+	overflow: hidden;
+}
+.img-container img{
+	transition: transform .5s ease;
+}
+.img-container img:hover{
+	transform: scale(2);
+}
+.col-md-3{
+	border-style: groove;
+	border-color: #8D0801;
+	border-width: 1px;
+	border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    margin: 10px;
+}
+.row{
+	margin-left: 50px;
+}

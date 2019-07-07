@@ -2,9 +2,7 @@
 #F9EDDB moccasin
 #BF0603 bright red
 #8D0801 Dark red
-
 */
-
 hr{
     border: 0;
     height: 1px;
@@ -18,8 +16,15 @@ hr{
 
 /*css for header navigator */
 body{
+<<<<<<< HEAD
+=======
+    /*padding: 0px 10%;*/
+>>>>>>> 7238897ead990ff6f0d7b70ba6aaff79a3a8b420
     font-family: 'Roboto Condenced', sans-serif;
     padding-top: 110px;
+}
+.pd{
+    padding: 0px 10%;
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
@@ -173,7 +178,13 @@ h3{
 footer.page-footer.font-small.unique-color-dark{
      padding: 0px 0px !important;
      background-color: #fff3cd;
+<<<<<<< HEAD
 }
+=======
+     margin-left: -150px;
+     margin-right: -150px;
+ }
+>>>>>>> 7238897ead990ff6f0d7b70ba6aaff79a3a8b420
 .h6, h6{
     color: #8d0801;
 }

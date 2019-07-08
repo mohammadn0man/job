@@ -23,14 +23,11 @@
 .ml14 {
   font-weight: 200;
   font-size: 3.2em;
-<<<<<<< Updated upstream
-    margin-top: 50px;
-    color: #8d0801;
-    font-family: 'Playfair Display', SansSerif;
-=======
   margin-top: 50px;
   color: #8d0801;
->>>>>>> Stashed changes
+  font-family: 'Playfair Display', SansSerif;
+  margin-top: 50px;
+  color: #8d0801;
 }
 
 .ml14 .text-wrapper {

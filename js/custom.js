@@ -80,3 +80,13 @@ anime.timeline({loop: true})
   });
 
 // ladies bags section
+// MAGNIFICATION
+
+$(function(){
+    $("#work").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: (
+            enable: true )
+    })
+})

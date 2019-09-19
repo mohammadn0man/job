@@ -52,14 +52,15 @@ $('.ml14 .letters').each(function(){
   $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
 });
 
-anime.timeline({loop: true})
+anime.timeline({loop: 1})
   .add({
     targets: '.ml14 .line',
     scaleX: [0,1],
     opacity: [0.5,1],
     easing: "easeInOutExpo",
     duration: 900
-  }).add({
+  })
+    .add({
     targets: '.ml14 .letter',
     opacity: [0,1],
     translateX: [40,0],
@@ -71,22 +72,13 @@ anime.timeline({loop: true})
     delay: function(el, i) {
       return 150 + 25 * i;
     }
-  }).add({
+  })
+    .add({
     targets: '.ml14',
     opacity: 0,
-    duration: 1000,
+    duration: Infinity,
     easing: "easeOutExpo",
     delay: 1000
   });
 
 // ladies bags section
-// MAGNIFICATION
-//
-// $(function(){
-//     $("#work").magnificPopup({
-//         delegate: 'a',
-//         type: 'image',
-//         gallery: (
-//             enable: true )
-//     })
-// })
